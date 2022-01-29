@@ -1,18 +1,18 @@
-import Container from '@components/Container';
-import SpotifyLogo from '@components/SpotifyLogo';
+import Container from "@components/Container";
+import SpotifyLogo from "@components/SpotifyLogo";
 
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
-          <SpotifyLogo /> Re-Wrapped
+          <SpotifyLogo /> Fran_The_Dev Netligraph Demo
         </p>
       </Container>
     </header>
-  )
-}
+  );
+};
 
 export default Header;
